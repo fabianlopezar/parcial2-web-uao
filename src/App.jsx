@@ -1,56 +1,15 @@
-import React from 'react';
+import Header from './Components/Header';
+import Summary from './Components/Summary';
+
 import './styles.css'; // Asegúrate de que este archivo exista
 
 const Perfil = () => {
     return (
         <div>
-            <header>
-                <img src="src/images/perfil.png" alt="Foto de perfil" className="profile-image" />
-                <div className="profile">
-                    <h1>Fabian Esteban Lopez Arias</h1>
-                    <p className="username">@fabianlopezdev</p>
-                </div>
-                <nav className="social-icons">
-                    <a href="https://x.com/FabianLopeza5" target="_blank" aria-label="Twitter">
-                        <img src="src\images\tw.png" alt="Twitter" />
-                    </a>
-                    <a href="https://www.instagram.com/fabianlopezdev/" target="_blank" aria-label="Instagram">
-                        <img src="src/images/insta.png" alt="Instagram" />
-                    </a>
-                    <a href="https://www.youtube.com/@fabianlopez2650" aria-label="YouTube" target="_blank">
-                        <img src="src/images/youtube.png" alt="YouTube" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/fabian-lopez-b4933a216/" aria-label="LinkedIn" target="_blank">
-                        <img src="src/images/linkedin.png" alt="LinkedIn" />
-                    </a>
-                    <a href="https://github.com/fabianlopezar" aria-label="Git" target="_blank">
-                        <img src="src/images/git.png" alt="Git" />
-                    </a>
-                </nav>
-            </header>
-
+            <Header></Header>
+            
             <main>
-                <section className="details">
-                    <div>
-                        <p><strong>Integrante</strong> UAO Speaks English</p>
-                    </div>
-                    <div>
-                        <p><strong>Coordinador</strong> Media Collab</p>
-                    </div>
-                </section>
-
-                <section className="next-live">
-                    <h2>UAO Speak English</h2>
-                    <p>Jueves, 29 de Agosto a las 04:00 - 05:00 </p>
-                </section>
-
-                <section className="bio">
-                    <p>
-                        Hola soy Fabian, estudiante de ingenieria multimedia y actualmente soy coordinador del grupo estudiantil mediacollab. 
-                        Además, creo contenido de entretenimiento en ingles, me gusta desafiarme saliendo de mi zona de confort y participar en competencias que me ayuden a crecer profesionalmente y como persona. Por último, me gustan los videojuegos y la pizza. ¡Bienvenid@!
-                        Con conocimientos en ReactJS, CSS, HTML, Redux, C#, Unity, Java.
-                    </p>
-                </section>
+           <Summary></Summary>
 
                 <section className="community">
                     <h2>Proyectos Primer Corte</h2>
