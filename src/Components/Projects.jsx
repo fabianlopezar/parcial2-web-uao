@@ -22,7 +22,7 @@ const Projects = () => {
           </li>
         </ul>
         <img
-          src="public/images/Sin título.jpg"
+          src="/images/Sin título.jpg"
           alt="Foto de perfil"
           className=""
         />
