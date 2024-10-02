@@ -1,4 +1,6 @@
 import tw from "../../public/images/tw.png"
+
+
 const Header = () => {
     return (
         <div>
@@ -16,13 +18,13 @@ const Header = () => {
                         <img src="/images/insta.png" alt="Instagram" />
                     </a>
                     <a href="https://www.youtube.com/@fabianlopez2650" aria-label="YouTube" target="_blank">
-                        <img src="/public/images/youtube.png" alt="YouTube" />
+                        <img src="/images/youtube.png" alt="YouTube" />
                     </a>
                     <a href="https://www.linkedin.com/in/fabian-lopez-b4933a216/" aria-label="LinkedIn" target="_blank">
-                        <img src="src/images/linkedin.png" alt="LinkedIn" />
+                        <img src="/images/linkedin.png" alt="LinkedIn" />
                     </a>
                     <a href="https://github.com/fabianlopezar" aria-label="Git" target="_blank">
-                        <img src="src/images/git.png" alt="Git" />
+                        <img src="/images/git.png" alt="Git" />
                     </a>
                 </nav>
             </header>
