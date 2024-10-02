@@ -1,4 +1,4 @@
-import tw from "../images/tw.png"
+import tw from "../../public/images/tw.png"
 const Header = () => {
     return (
         <div>
@@ -13,10 +13,10 @@ const Header = () => {
                         <img src={tw} alt="Twitter" />
                     </a>
                     <a href="https://www.instagram.com/fabianlopezdev/" target="_blank" aria-label="Instagram">
-                        <img src="/src/images/insta.png" alt="Instagram" />
+                        <img src="/images/insta.png" alt="Instagram" />
                     </a>
                     <a href="https://www.youtube.com/@fabianlopez2650" aria-label="YouTube" target="_blank">
-                        <img src="src/images/youtube.png" alt="YouTube" />
+                        <img src="/public/images/youtube.png" alt="YouTube" />
                     </a>
                     <a href="https://www.linkedin.com/in/fabian-lopez-b4933a216/" aria-label="LinkedIn" target="_blank">
                         <img src="src/images/linkedin.png" alt="LinkedIn" />
