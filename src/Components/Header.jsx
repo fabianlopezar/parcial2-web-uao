@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <header>
-                <img src="src/images/perfil.png" alt="Foto de perfil" className="profile-image" />
+                <img src="/images/perfil.png" alt="Foto de perfil" className="profile-image" />
                 <div className="profile">
                     <h1>Fabian Esteban Lopez Arias</h1>
                     <p className="username">@fabianlopezdev</p>

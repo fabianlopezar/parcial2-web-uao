@@ -1,0 +1,26 @@
+.containerHabilidades {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.acordeon {
+    margin-bottom: 10px;
+}
+
+.acordeon-title {
+    padding: 10px;
+  
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #ccc; /* Borde solo en el título */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+.acordeon-content {
+    padding: 10px;
+
+    border: 1px solid #ccc; /* Opción: Borde opcional para el contenido */
+    border-top: none; /* Sin borde superior para conectar con el título */
+    border-radius: 0 0 5px 5px; /* Bordes redondeados en la parte inferior */
+}

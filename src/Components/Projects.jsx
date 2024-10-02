@@ -1,4 +1,4 @@
-const Skills = () => {
+const Projects = () => {
   return (
     <div>
       <section className="community">
@@ -22,7 +22,7 @@ const Skills = () => {
           </li>
         </ul>
         <img
-          src="src/images/Sin título.jpg"
+          src="public/images/Sin título.jpg"
           alt="Foto de perfil"
           className=""
         />
@@ -38,10 +38,18 @@ const Skills = () => {
               - Funcion Flecha.
             </a>
           </li>
+          <li>
+            <a
+              href="https://github.com/fabianlopezar/componentes-uao-web"
+              target="_blank"
+            >
+              - Componentes En React.
+            </a>
+          </li>
         </ul>
       </section>
     </div>
   );
 };
 
-export default Skills;
+export default Projects;

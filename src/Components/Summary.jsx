@@ -22,11 +22,7 @@ const Summary = () => {
                     </p>
                 </section>
 
-                <section className="next-live">
-                    
-                    <button onClick="window.location.href='habilidadesBlandas.jsx';">Habilidades Blandas</button>
-                    <button>Habilidades Duras</button>
-                </section>
+          
 
                </main>
         </div>
