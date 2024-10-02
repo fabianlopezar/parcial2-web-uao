@@ -12,10 +12,10 @@ const Header = () => {
                 </div>
                 <nav className="social-icons">
                     <a href="https://x.com/FabianLopeza5" target="_blank" aria-label="Twitter">
-                        <img src="src\images\tw.png" alt="Twitter" />
+                        <img src="/src\images\tw.png" alt="Twitter" />
                     </a>
                     <a href="https://www.instagram.com/fabianlopezdev/" target="_blank" aria-label="Instagram">
-                        <img src="src/images/insta.png" alt="Instagram" />
+                        <img src="/src/images/insta.png" alt="Instagram" />
                     </a>
                     <a href="https://www.youtube.com/@fabianlopez2650" aria-label="YouTube" target="_blank">
                         <img src="src/images/youtube.png" alt="YouTube" />
