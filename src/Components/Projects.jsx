@@ -35,7 +35,7 @@ const Projects = () => {
               href="https://github.com/fabianlopezar/funcionflecha"
               target="_blank"
             >
-              - Funcion Flecha.
+              - Funcion Flecha || Número menor.
             </a>
           </li>
           <li>
@@ -43,7 +43,23 @@ const Projects = () => {
               href="https://github.com/fabianlopezar/componentes-uao-web"
               target="_blank"
             >
-              - Componentes En React.
+              - Componentes En React || Cartas.
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/fabianlopezar/counter-uao"
+              target="_blank"
+            >
+              - Counter.
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/fabianlopezar/clase7uao"
+              target="_blank"
+            >
+              - Clase Virtual.
             </a>
           </li>
         </ul>
@@ -51,5 +67,5 @@ const Projects = () => {
     </div>
   );
 };
-
+//https://github.com/fabianlopezar/counter-uao
 export default Projects;
